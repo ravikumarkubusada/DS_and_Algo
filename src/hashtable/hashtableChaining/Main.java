@@ -8,19 +8,19 @@ public class Main {
 		Employee e2 = new Employee("Raj", 124L);
 		Employee e3 = new Employee("Ram", 125L);
 
-		SimpleArrayHashTable hm = new SimpleArrayHashTable();
+		ChainedHashtable hm = new ChainedHashtable();
 
 		hm.put(e1);
 		hm.put(e2);
 		hm.put(e3);
 
-		hm.printHashTable();
+		hm.printHashtable();
 //		System.out.println(hm.get("Raj"));
 		
 		hm.remove("Ravi");
 		
 		System.out.println("====================================================");
-		hm.printHashTable();
+		hm.printHashtable();
 		
 		System.out.println(hm.get("Ram"));
 	}
