@@ -22,6 +22,7 @@ public class SimpleArrayHashTable {
 	
 	public int getHash(String key) {
 //		some dumy hashing logic
+		System.out.println("Hash=>"+ key.length() % hashTable.length);
 		return key.length() % hashTable.length;
 	}
 	

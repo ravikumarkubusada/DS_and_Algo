@@ -11,7 +11,8 @@ public class Main {
 		SimpleArrayHashTable hm = new SimpleArrayHashTable();
 		
 		hm.put(e1);
-		hm.put(e1);
+		hm.put(e2);
+		hm.put(e3);
 		
 //		hm.printHashTable();
 		System.out.println(hm.get("Ravi"));
