@@ -1,6 +1,8 @@
+/*
 package interview.coding.problems;
 
-import com.sun.corba.se.impl.orbutil.graph.Node;
+
+import org.w3c.dom.Node;
 
 public class MirrorTreeProblem {
 
@@ -24,3 +26,4 @@ public class MirrorTreeProblem {
 
 	}
 }
+*/

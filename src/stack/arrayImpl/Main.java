@@ -8,7 +8,7 @@ public class Main {
 		Employee e2 = new Employee("Raj", 124L);
 		Employee e3 = new Employee("Ram", 125L);
 		
-		Arraystack st = new Arraystack(10);
+		ArrayStack st = new ArrayStack(10);
 		
 		st.push(e1);
 		st.push(e2);
